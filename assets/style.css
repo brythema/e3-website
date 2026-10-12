@@ -46,3 +46,20 @@ body.theme-school{--accent:#49d6ff;--accent2:#62e5bd}body.theme-medical{--accent
 @media(max-width:1100px){.works-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:720px){.works-grid{grid-template-columns:1fr}.work-card{min-height:0}.work-card>p{max-width:none}.work-url{font-size:.6rem}}
 @media(prefers-reduced-motion:reduce){.work-card{transition:none}}
+/* nightlife svg art (2026-10-12) */
+.nf-art{min-height:340px;border:1px solid var(--line);border-radius:30px;padding:1.4rem;background:linear-gradient(145deg,#151022,#0a0713);position:relative;overflow:hidden}
+.nf-art:before{content:"";position:absolute;width:260px;height:260px;right:-70px;top:-70px;border-radius:50%;border:1px solid rgba(192,140,255,.28);box-shadow:0 0 70px rgba(192,140,255,.10)}
+.nf-art>svg{width:100%;height:auto;display:block;position:relative}
+.nf-foot{position:relative;display:flex;align-items:flex-end;gap:.9rem;margin-top:1.1rem;padding-top:1rem;border-top:1px solid var(--line)}
+.nf-foot span{font:800 2.6rem/1 var(--head);color:rgba(255,255,255,.12)}
+.nf-foot b{display:block;font-size:.85rem;letter-spacing:.2em;color:var(--accent)}
+.nf-foot small{display:block;margin-top:.3rem;color:#8e7ea0;font-size:.74rem}
+.nf-flow-h{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin-top:1.6rem}
+.nf-flow-h span{padding:.55rem .8rem;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.025);font-size:.66rem;letter-spacing:.12em;font-weight:800;color:#c3d1dc}
+.nf-flow-h span:nth-of-type(1){border-color:color-mix(in srgb,var(--accent) 35%,var(--line));color:var(--accent)}
+.nf-flow-h span:nth-of-type(4){border-color:color-mix(in srgb,var(--accent2) 35%,var(--line));color:var(--accent2)}
+.nf-flow-h b{color:var(--accent);font-size:.95rem}
+.feature-ico{position:relative;display:grid;place-items:center;width:36px;height:36px;border-radius:11px;background:color-mix(in srgb,var(--accent) 10%,transparent);color:var(--accent);margin-bottom:1.1rem}
+.feature-ico svg{width:18px;height:18px}
+@media(max-width:720px){.nf-art{min-height:0}.nf-foot span{font-size:1.8rem}}
+.nf-caption{margin-top:1rem;font-size:.8rem;color:#8496a9;text-align:left}
