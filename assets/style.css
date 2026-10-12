@@ -66,3 +66,5 @@ body.theme-school{--accent:#49d6ff;--accent2:#62e5bd}body.theme-medical{--accent
 /* nightlife quick-chip icons (round 2b, 2026-10-12) */
 .quick-ico{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:color-mix(in srgb,var(--accent) 10%,transparent);color:var(--accent);margin-bottom:.9rem}
 .quick-ico svg{width:17px;height:17px}
+/* nightlife round 3: inline links inside feature cards */
+.feature-card p a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
