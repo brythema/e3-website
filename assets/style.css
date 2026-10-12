@@ -63,3 +63,6 @@ body.theme-school{--accent:#49d6ff;--accent2:#62e5bd}body.theme-medical{--accent
 .feature-ico svg{width:18px;height:18px}
 @media(max-width:720px){.nf-art{min-height:0}.nf-foot span{font-size:1.8rem}}
 .nf-caption{margin-top:1rem;font-size:.8rem;color:#8496a9;text-align:left}
+/* nightlife quick-chip icons (round 2b, 2026-10-12) */
+.quick-ico{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:color-mix(in srgb,var(--accent) 10%,transparent);color:var(--accent);margin-bottom:.9rem}
+.quick-ico svg{width:17px;height:17px}
