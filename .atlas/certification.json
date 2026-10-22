@@ -1,0 +1,14 @@
+{
+  "session": null,
+  "timestamp": "2026-10-11T10:03:17.230Z",
+  "project": "C:\\Users\\bryth\\OneDrive\\Desktop\\E3-motion-website",
+  "verdict": "PASS",
+  "results": [
+    {
+      "command": "node -e \"Promise.all([fetch('https://e3-website-hemabryt.vercel.app/'),fetch('https://e3-website-hemabryt.vercel.app/medical/')]).then(([h,m])=>{console.log('home',h.status,'medical',m.status);if(h.status!==200||m.status!==200)process.exit(1)})\"",
+      "exitCode": 0,
+      "durationMs": 816,
+      "error": null
+    }
+  ]
+}
