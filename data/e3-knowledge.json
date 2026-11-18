@@ -1,0 +1,1353 @@
+{
+  "meta": {
+    "name": "E³ Knowledge Library",
+    "version": "1.1.0",
+    "updated": "2026-11-18",
+    "purpose": "Approved public-facing information used by the E³ website assistant.",
+    "officialName": "Encourage Excellence Early",
+    "positioning": "E³ is a technology and digital solutions organisation helping businesses, institutions, brands and ideas become easier to find, trust, operate and grow.",
+    "approach": [
+      "Problem",
+      "Experience",
+      "Solution",
+      "Growth"
+    ],
+    "pricingPolicy": {
+      "website": {
+        "static": {
+          "startingPriceNgn": 150000,
+          "display": "₦150,000"
+        },
+        "dynamic": {
+          "startingPriceNgn": 250000,
+          "display": "₦250,000"
+        },
+        "qualification": "These are starting prices, not fixed package prices. The final price increases according to the selected features, functionality, complexity and agreed scope."
+      },
+      "otherServicesAndProgrammes": "Do not quote a starting price or fixed fee for any other E³ service, platform, partnership, course or programme. Explain that the requirements and scope will be discussed and an appropriate cost confirmed before any commitment."
+    },
+    "answerPolicy": "Answer only from this approved library and the current page context. Quote only the approved website starting prices: static websites from ₦150,000 and dynamic websites from ₦250,000. State clearly that both increase with features and scope. Do not quote prices for other E³ services, platforms or programmes; explain that those are discussed based on requirements. Never invent guarantees, delivery dates, features, eligibility or policies. For medical questions, do not give personal medical advice; explain the platform only and direct urgent or personal health matters to qualified professionals.",
+    "agentApproach": {
+      "identity": "E³ digital guide and discovery consultant",
+      "mission": "Help each visitor understand whether and how E³ may help with the problem, idea or organisation they bring to the website.",
+      "tone": [
+        "warm",
+        "clear",
+        "practical",
+        "knowledgeable",
+        "respectful",
+        "non-pushy"
+      ],
+      "conversationFlow": [
+        "Understand what the visitor does and who they serve.",
+        "Understand what is difficult, missing or should become easier.",
+        "Connect the need to the most relevant E³ service or specialist area.",
+        "Explain only verified capabilities and limitations.",
+        "Suggest one useful next step, such as exploring a relevant page, completing the questionnaire or speaking with E³."
+      ],
+      "rules": [
+        "Do not make visitors choose a technical solution before understanding their problem.",
+        "Ask one useful discovery question at a time.",
+        "Do not pressure visitors to complete the questionnaire immediately.",
+        "Do not describe E³ as only a website-development company.",
+        "Do not claim to be a human or a generative AI model.",
+        "When details are not verified, say so and offer a human handover."
+      ]
+    }
+  },
+  "contact": {
+    "whatsappNumber": "2347042776167",
+    "whatsappDisplay": "+234 704 277 6167",
+    "email": "encourageexcellenceearly@gmail.com",
+    "location": "Gwarinpa, Abuja, Nigeria",
+    "questionnaire": "https://docs.google.com/forms/d/e/1FAIpQLSdHayuS9caJF8xDlasvgahjGDnjGwdOQWqtiwGU5M5_6ZMRnA/viewform",
+    "questionnairePage": "/get-started.html"
+  },
+  "pages": [
+    {
+      "id": "home",
+      "label": "E³ homepage",
+      "summary": "E³ (Encourage Excellence Early) helps organisations, businesses, brands and people turn real problems into useful digital experiences—so they can be easier to find, easier to trust and easier to run. Its six broad service areas are web and digital presence; apps and portals; AI and automation; digital identity; visibility and content; and tailored platforms.",
+      "keywords": [
+        "home",
+        "homepage",
+        "e3",
+        "main",
+        "overview",
+        "services"
+      ],
+      "suggestions": [
+        "What does E³ do?",
+        "How much does a website cost?",
+        "I have an idea but need help choosing a solution."
+      ]
+    },
+    {
+      "id": "about",
+      "label": "About E³",
+      "summary": "E³ — Encourage Excellence Early — helps people and organisations turn good intentions into useful digital systems, experiences and identities. Its approach values clarity, context, standards and progress. Excellence should be built into early decisions, not postponed until an organisation becomes large.",
+      "keywords": [
+        "about",
+        "company",
+        "organisation",
+        "mission",
+        "values",
+        "approach",
+        "principles"
+      ],
+      "suggestions": [
+        "What does E³ stand for?",
+        "What makes E³ different?",
+        "How does E³ approach a project?"
+      ]
+    },
+    {
+      "id": "works",
+      "label": "E³ Works portfolio",
+      "summary": "The Works page is a running record of E³ builds, including platforms and products, business and client websites, wedding/event pages and other digital work. Each project card links to its available example.",
+      "keywords": [
+        "works",
+        "portfolio",
+        "projects",
+        "examples",
+        "case studies",
+        "previous work"
+      ],
+      "suggestions": [
+        "Show me E³ projects",
+        "Have you built a platform before?",
+        "Can you build something similar?"
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Contact E³",
+      "summary": "Visitors can contact E³ on WhatsApp at +234 704 277 6167, by email at encourageexcellenceearly@gmail.com, or through the Business Discovery & Growth questionnaire.",
+      "keywords": [
+        "contact",
+        "phone",
+        "whatsapp",
+        "email",
+        "address",
+        "location",
+        "reach"
+      ],
+      "suggestions": [
+        "Contact E³ on WhatsApp",
+        "How do I send an enquiry?",
+        "Where is E³ located?"
+      ]
+    },
+    {
+      "id": "schools",
+      "label": "E³ for Schools",
+      "summary": "E³ for Schools connects parents, teachers, school leadership, admissions and students through school information, recorded academic progress, configured result calculations, clearer workflows and agreed technology support. Optional services include website management, social media, graphics, audio, video, animation and tailored digital support. Programme scope and pricing are discussed with each school.",
+      "keywords": [
+        "schools",
+        "school",
+        "parents",
+        "teachers",
+        "students",
+        "results",
+        "grading",
+        "education"
+      ],
+      "suggestions": [
+        "How does the school platform work?",
+        "Can parents view results?",
+        "How can my school get started?"
+      ]
+    },
+    {
+      "id": "medical",
+      "label": "E³ Medical",
+      "summary": "E³ Medical is a digital health experience for pharmacies, clinics, hospitals and patients. The published concept includes a history-aware AI nurse, medicine requests routed to a partner pharmacy, a doctor–patient chatroom and reminders. The AI nurse is an assistance layer, not a medical professional; it does not diagnose or prescribe.",
+      "keywords": [
+        "medical",
+        "health",
+        "pharmacy",
+        "clinic",
+        "hospital",
+        "patient",
+        "doctor",
+        "medicine"
+      ],
+      "suggestions": [
+        "What does E³ Medical offer?",
+        "How does the platform connect patients and pharmacies?",
+        "How can a clinic enquire?"
+      ]
+    },
+    {
+      "id": "nightlife",
+      "label": "E³ Nightlife",
+      "summary": "E³ Nightlife pairs Abuja Events, an event discovery and ticketing platform for Abuja, with digital experiences for venues, event organisers and audiences. Published features include live search, date and area filters, event pages, ticket plans and connected venue maps.",
+      "keywords": [
+        "nightlife",
+        "events",
+        "event",
+        "venue",
+        "tickets",
+        "ticketing",
+        "abuja events",
+        "night out",
+        "club"
+      ],
+      "suggestions": [
+        "What is Abuja Events?",
+        "Can venues work with E³?",
+        "How does event ticketing work?"
+      ]
+    },
+    {
+      "id": "weddings",
+      "label": "E³ Weddings & Events",
+      "summary": "E³ creates mobile-first digital front doors for weddings and events, bringing event stories, details, schedules, directions, RSVPs, guest journeys and updates into a clear experience.",
+      "keywords": [
+        "wedding",
+        "weddings",
+        "event website",
+        "invitation",
+        "guest",
+        "rsvp",
+        "ceremony",
+        "celebration"
+      ],
+      "suggestions": [
+        "Can E³ create a wedding website?",
+        "Can guests get event information online?",
+        "How do I discuss an event project?"
+      ]
+    },
+    {
+      "id": "learning",
+      "label": "E³ Learning Hub",
+      "summary": "The E³ Learning Hub currently presents self-paced Artificial Intelligence and Digital Marketing courses with practical guided projects, progress records and phone-friendly learning. Individuals can subscribe directly, and subscribing schools can extend access to students. Mentorship and scholarship routes depend on availability, eligibility and confirmed arrangements.",
+      "keywords": [
+        "learning",
+        "hub",
+        "course",
+        "courses",
+        "students",
+        "digital skills",
+        "artificial intelligence",
+        "ai course",
+        "digital marketing",
+        "scholarship",
+        "mentorship"
+      ],
+      "suggestions": [
+        "What courses are available?",
+        "Can an individual subscribe?",
+        "How can a school get access?"
+      ]
+    },
+    {
+      "id": "insights",
+      "label": "E³ Insights",
+      "summary": "E³ Insights contains articles and practical thinking about digital presence, technology, AI, organisations and useful digital experiences in Nigeria.",
+      "keywords": [
+        "blog",
+        "insights",
+        "articles",
+        "writing",
+        "ideas",
+        "technology tips"
+      ],
+      "suggestions": [
+        "What does E³ write about?",
+        "Can I discuss an article?",
+        "How do I start a project?"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "identity",
+      "section": "general",
+      "title": "What E³ does",
+      "triggers": [
+        "what does e3 do",
+        "what is e3",
+        "who are e3",
+        "what services do you offer",
+        "tell me about e3",
+        "what does your company do",
+        "what does e3 stand for",
+        "what is the full meaning of e3"
+      ],
+      "keywords": [
+        "e3",
+        "encourage excellence early",
+        "company",
+        "organisation",
+        "services",
+        "business",
+        "technology",
+        "digital solutions",
+        "digital experiences"
+      ],
+      "answer": "E³ stands for Encourage Excellence Early. E³ is a technology and digital solutions organisation helping businesses, institutions, brands and ideas become easier to find, easier to trust, easier to operate and better positioned to grow. Its work includes websites and digital presence, apps and portals, AI and automation, digital identity, visibility and content, and tailored platforms. E³ starts by understanding the real problem rather than assuming that every challenge needs the same technology.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "services",
+      "section": "general",
+      "title": "E³ service areas",
+      "triggers": [
+        "what services does e3 provide",
+        "list your services",
+        "what can e3 help with",
+        "what do you build",
+        "what can you build",
+        "what kind of digital services do you offer"
+      ],
+      "keywords": [
+        "services",
+        "website",
+        "web",
+        "application",
+        "app",
+        "portal",
+        "automation",
+        "identity",
+        "graphics",
+        "visibility",
+        "content",
+        "platform",
+        "social media"
+      ],
+      "answer": "E³ works across six broad areas: (1) web and digital presence, including landing pages, static and dynamic websites and e-commerce; (2) apps and portals; (3) AI and automation; (4) digital identity and graphics; (5) visibility and content, including social-ready graphics and content direction; and (6) tailored platforms shaped around an organisation’s people, workflow and goals. The right starting point depends on the problem you want to solve.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "website",
+      "section": "general",
+      "title": "Websites and digital presence",
+      "triggers": [
+        "can you build a website",
+        "do you make websites",
+        "i need a website",
+        "website for my business",
+        "business website",
+        "ecommerce website",
+        "online store",
+        "can you create a webpage",
+        "i need a static website",
+        "i need a dynamic website"
+      ],
+      "keywords": [
+        "website",
+        "websites",
+        "web",
+        "site",
+        "sites",
+        "webpage",
+        "webpages",
+        "online store",
+        "ecommerce",
+        "business",
+        "landing page",
+        "digital presence",
+        "static",
+        "dynamic"
+      ],
+      "answer": "Yes. E³ builds websites and digital experiences for businesses, organisations and brands. The right scope may be a focused landing page, a static website, a dynamic website, an e-commerce experience or a larger digital platform. Static websites start from ₦150,000 and dynamic websites start from ₦250,000. These are starting prices; the final price increases with the features, functionality, complexity and agreed scope. Tell us what the website should help your audience do, and we can discuss the right version.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "apps-portals",
+      "section": "general",
+      "title": "Applications and portals",
+      "triggers": [
+        "can you build an app",
+        "can you build an application",
+        "i need an app",
+        "business management system",
+        "customer portal",
+        "custom software",
+        "web application"
+      ],
+      "keywords": [
+        "app",
+        "application",
+        "portal",
+        "software",
+        "system",
+        "platform",
+        "dashboard",
+        "management system",
+        "custom"
+      ],
+      "answer": "E³ works on applications, portals and digital systems designed around an organisation's workflows and users. Before recommending a solution, E³ needs to understand the people who will use it, the tasks it should support and the problem with the current process.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "ai-automation",
+      "section": "general",
+      "title": "AI and automation services",
+      "triggers": [
+        "do you offer ai services",
+        "can you add ai to my business",
+        "ai automation",
+        "automate my business",
+        "integrate artificial intelligence",
+        "chatbot for my business"
+      ],
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "automation",
+        "automate",
+        "chatbot",
+        "workflow",
+        "business process",
+        "integration"
+      ],
+      "answer": "E³ lists AI and automation among its digital service areas. A useful starting point is to identify a repetitive, information-heavy or slow process and explain what you want to improve. E³ can then assess whether AI, automation or a different digital approach is appropriate.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "digital-identity",
+      "section": "general",
+      "title": "Digital identity and graphics",
+      "triggers": [
+        "do you design graphics",
+        "digital branding",
+        "brand identity",
+        "i need a logo",
+        "graphics design",
+        "digital identity"
+      ],
+      "keywords": [
+        "digital identity",
+        "brand",
+        "branding",
+        "graphics",
+        "logo",
+        "design",
+        "visual identity"
+      ],
+      "answer": "Digital identity is one of E³'s service areas. It concerns how an organisation or brand presents itself across digital touchpoints. Share what you are building, what identity assets you already have and what needs to change so E³ can understand the scope.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "start-project",
+      "section": "general",
+      "title": "How to start a project with E³",
+      "triggers": [
+        "how do i get started",
+        "how can i work with e3",
+        "i want to work with e3",
+        "start a project",
+        "how do i start",
+        "i have an idea"
+      ],
+      "keywords": [
+        "start",
+        "project",
+        "work with",
+        "idea",
+        "begin",
+        "engage",
+        "get started"
+      ],
+      "answer": "You do not need a finished technical brief. Start by explaining what you do, what is difficult today and what you want to become easier or possible. E³'s Business Discovery & Growth questionnaire helps capture that context so the team can understand the opportunity before recommending a direction.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "pricing",
+      "section": "general",
+      "title": "Pricing and quotations",
+      "triggers": [
+        "how much does it cost",
+        "how much do you charge",
+        "what is your price",
+        "how much is a website",
+        "what are your prices",
+        "do you have a price list",
+        "pricing",
+        "cost",
+        "how much for a website",
+        "what is the starting price"
+      ],
+      "keywords": [
+        "price",
+        "prices",
+        "pricing",
+        "cost",
+        "costs",
+        "charge",
+        "charges",
+        "quote",
+        "quotation",
+        "budget",
+        "fee",
+        "fees",
+        "how much"
+      ],
+      "answer": "For websites, static websites start from ₦150,000 and dynamic websites start from ₦250,000. These are starting prices, and the final cost increases according to the features and scope. Pricing for E³’s other services, platforms and programmes is discussed individually after understanding the requirements. E³ will explain the proposed scope and cost before anything is agreed.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "timeline",
+      "section": "general",
+      "title": "Project timelines",
+      "triggers": [
+        "how long will it take",
+        "how long does a project take",
+        "when can you deliver",
+        "project timeline",
+        "delivery time"
+      ],
+      "keywords": [
+        "timeline",
+        "delivery",
+        "deadline",
+        "duration",
+        "how long",
+        "complete",
+        "finish"
+      ],
+      "answer": "I don't have a verified delivery time for your particular project. Timing depends on the scope, requirements and decisions involved. E³ would need to understand the project before confirming a realistic timeline. The questionnaire is the best way to provide that detail.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "schools",
+      "section": "schools",
+      "title": "E³ for Schools overview",
+      "triggers": [
+        "what does e3 schools do",
+        "tell me about the school platform",
+        "school management system",
+        "e3 school platform",
+        "how does the school platform work"
+      ],
+      "keywords": [
+        "school",
+        "schools",
+        "parents",
+        "teachers",
+        "students",
+        "school platform",
+        "results",
+        "academic",
+        "grading"
+      ],
+      "answer": "E³ for Schools connects the school community through clearer digital experiences for parents, teachers, leadership, admissions and students. Depending on the agreed setup, it can support school information, authorised parent access to recorded academic results, result calculations using the school’s configured grading rules, admissions enquiries, digital learning opportunities and ongoing technology support. Optional services can include website management, social media, graphics, audio, video, animation and custom digital support. The specific combination is discussed with each school.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "school-results",
+      "section": "schools",
+      "title": "Parent access to school results",
+      "triggers": [
+        "can parents view results",
+        "can parents check results online",
+        "how do parents see results",
+        "online student results",
+        "school result portal"
+      ],
+      "keywords": [
+        "parents",
+        "results",
+        "check",
+        "view",
+        "online",
+        "result portal",
+        "academic progress",
+        "scores"
+      ],
+      "answer": "The E³ Schools platform is designed to give authorised parents access to results as the school records and updates them. It does not create assessment information that the school has not entered. Availability depends on the school’s setup and workflow.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "school-pricing",
+      "section": "schools",
+      "title": "School partnership enquiry",
+      "triggers": [
+        "how can my school get started",
+        "school subscription",
+        "school pricing",
+        "how much for a school",
+        "become a partner school",
+        "what does a school partnership cost",
+        "school programme cost"
+      ],
+      "keywords": [
+        "school",
+        "subscription",
+        "partner",
+        "partnership",
+        "price",
+        "pricing",
+        "cost",
+        "school access"
+      ],
+      "answer": "E³ discusses school partnerships based on the school’s existing processes, priorities, users and the services it wants to include. The programme scope and cost are discussed with the school and confirmed before any commitment. Optional services are not included unless they are specifically agreed.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "medical",
+      "section": "medical",
+      "title": "E³ Medical overview",
+      "triggers": [
+        "what does e3 medical offer",
+        "tell me about e3 medical",
+        "medical platform",
+        "pharmacy platform",
+        "health platform"
+      ],
+      "keywords": [
+        "medical",
+        "health",
+        "pharmacy",
+        "clinic",
+        "hospital",
+        "patient",
+        "doctor",
+        "medicine",
+        "drug orders",
+        "reminders"
+      ],
+      "answer": "E³ Medical describes a digital health experience connecting pharmacies, clinics, hospitals, doctors and patients. The published concept includes a history-aware AI nurse, online medicine requests routed to a partner pharmacy, a doctor–patient chatroom and medication reminders. The precise setup, data handling arrangements, responsibilities and optional services are agreed with the partner service. The website assistant can explain the platform but cannot provide personal medical advice.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "nightlife",
+      "section": "nightlife",
+      "title": "E³ Nightlife and Abuja Events",
+      "triggers": [
+        "what is e3 nightlife",
+        "what is abuja events",
+        "tell me about abuja events",
+        "event discovery platform",
+        "event ticketing"
+      ],
+      "keywords": [
+        "nightlife",
+        "abuja events",
+        "event",
+        "events",
+        "venue",
+        "ticket",
+        "ticketing",
+        "discover",
+        "map"
+      ],
+      "answer": "E³ Nightlife pairs Abuja Events, a live event discovery and ticketing platform for Abuja, with digital experiences for venues, organisers and audiences. Visitors can search events by title, venue, tags or organiser, filter by date or area, view event details and a connected venue map, and book tickets through the platform. Organisers can list events, add ticket plans and create a profile. The organiser runs the event; the platform provides the discovery and booking layer.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "weddings",
+      "section": "weddings",
+      "title": "E³ Weddings and event websites",
+      "triggers": [
+        "can you create a wedding website",
+        "wedding website",
+        "digital wedding invitation",
+        "event website",
+        "guest information page"
+      ],
+      "keywords": [
+        "wedding",
+        "weddings",
+        "event",
+        "events",
+        "guest",
+        "invitation",
+        "rsvp",
+        "digital page",
+        "storytelling"
+      ],
+      "answer": "E³ creates mobile-first digital front doors for weddings and important occasions. Depending on the agreed scope, an event experience can bring together the story, venue details, schedule, directions, RSVP, guest information and updates in one clear place. The aim is to make the digital experience feel like part of the occasion, not an unrelated software project.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "learning-hub",
+      "section": "learning",
+      "title": "E³ Learning Hub courses",
+      "triggers": [
+        "what courses are available",
+        "what is in the learning hub",
+        "e3 learning hub",
+        "can i learn ai",
+        "digital marketing course"
+      ],
+      "keywords": [
+        "learning hub",
+        "course",
+        "courses",
+        "artificial intelligence",
+        "ai",
+        "digital marketing",
+        "students",
+        "learn",
+        "phone"
+      ],
+      "answer": "The E³ Learning Hub currently presents two self-paced, phone-friendly courses: Artificial Intelligence and Digital Marketing. Both pair course content with guided practical projects, where learners build something and record evidence of their work. Learners can use a phone or computer; advanced projects may use a computer. More pathways are added as they are completed.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "learning-access",
+      "section": "learning",
+      "title": "Learning Hub access and opportunities",
+      "triggers": [
+        "can an individual subscribe",
+        "can schools access the learning hub",
+        "learning hub subscription",
+        "are scholarships guaranteed",
+        "do you offer mentorship"
+      ],
+      "keywords": [
+        "individual",
+        "subscribe",
+        "school",
+        "access",
+        "scholarship",
+        "mentorship",
+        "opportunities",
+        "eligibility"
+      ],
+      "answer": "The Learning Hub has two access routes: individuals can subscribe directly to E³, and subscribing schools can extend access to their students under the agreed seat count. E³ manages access, learning content, standards and progress records. Mentorship and scholarship routes are opportunities, not guarantees; availability, eligibility and confirmed arrangements apply.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "portfolio",
+      "section": "works",
+      "title": "E³ portfolio and previous work",
+      "triggers": [
+        "show me your work",
+        "what projects have you built",
+        "do you have a portfolio",
+        "have you done similar work",
+        "previous projects"
+      ],
+      "keywords": [
+        "portfolio",
+        "works",
+        "projects",
+        "examples",
+        "built",
+        "previous",
+        "similar",
+        "case study"
+      ],
+      "answer": "E³'s Works page includes examples such as Realto (property marketplace), Abuja Events (event discovery and ticketing), Tasara (trader-focused platform), B-Medix AI (pharmacy demonstration), E-Results (school platform), Adagache Homes (real-estate website), Otis Farm Ventures and wedding experiences. Open the Works page to explore the available project cards. These examples show different kinds of work; they do not mean every project has the same scope or features.",
+      "actions": [
+        "works",
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "contact",
+      "section": "contact",
+      "title": "Contact details",
+      "triggers": [
+        "how do i contact e3",
+        "what is your whatsapp number",
+        "what is your email",
+        "where are you located",
+        "where is e3 based"
+      ],
+      "keywords": [
+        "contact",
+        "whatsapp",
+        "phone",
+        "email",
+        "address",
+        "location",
+        "abuja",
+        "gwarinpa"
+      ],
+      "answer": "You can reach E³ on WhatsApp or phone at +234 704 277 6167, by email at encourageexcellenceearly@gmail.com, or visit the team in Gwarinpa, Abuja, Nigeria.",
+      "actions": [
+        "whatsapp",
+        "questionnaire"
+      ]
+    },
+    {
+      "id": "assistant-scope",
+      "section": "general",
+      "title": "What the E³ website assistant can do",
+      "triggers": [
+        "are you a real person",
+        "are you ai",
+        "what can you help me with",
+        "who am i talking to",
+        "can you answer questions"
+      ],
+      "keywords": [
+        "assistant",
+        "bot",
+        "ai",
+        "help",
+        "question",
+        "person",
+        "human"
+      ],
+      "answer": "I'm the E³ website guide. I use E³'s approved information and the page you're currently viewing to answer common questions and point you to relevant services. For detailed requirements, quotations or questions that need a person to review them, I can connect you with E³ through the questionnaire or WhatsApp.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "approach",
+      "section": "general",
+      "title": "How E³ approaches a project",
+      "triggers": [
+        "how does e3 approach a project",
+        "what is your process",
+        "how do you work",
+        "how does e3 work with clients",
+        "what happens after i contact you",
+        "do i need a technical brief"
+      ],
+      "keywords": [
+        "problem",
+        "experience",
+        "solution",
+        "growth",
+        "process",
+        "approach",
+        "brief",
+        "stages"
+      ],
+      "answer": "E³ follows a problem-first approach: understand the problem and the people involved; shape the experience that should improve; agree on an appropriate solution and scope; then build in practical stages and improve as the organisation grows. You do not need a finished technical brief. Start with what you do, what is difficult today and what you want to become easier or possible.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "visibility-content",
+      "section": "general",
+      "title": "Visibility, social media and content support",
+      "triggers": [
+        "can e3 help with social media",
+        "do you manage social media",
+        "can you create content for my business",
+        "do you design social media posts",
+        "can you help my brand stay visible",
+        "do you create videos and graphics",
+        "can you help with social media content",
+        "can you manage social media",
+        "do you do social media management",
+        "can you create social media posts"
+      ],
+      "keywords": [
+        "visibility",
+        "content",
+        "social",
+        "social media",
+        "posts",
+        "publishing",
+        "graphics",
+        "graphic design",
+        "flyers",
+        "audio",
+        "video",
+        "animation",
+        "motion graphics",
+        "content direction"
+      ],
+      "answer": "Yes. Visibility and content are part of E³’s service areas. The work can include social-ready graphics, content direction and digital touchpoints that help an organisation stay visible and recognisable. Depending on the agreed scope, support may also include social media planning and publishing, graphic design, audio and video content, and animation or motion graphics. The right combination and cost are discussed based on your goals and content needs.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "tailored-platforms",
+      "section": "general",
+      "title": "Custom platforms and tailored digital systems",
+      "triggers": [
+        "can you build a custom platform",
+        "i need a custom system",
+        "can you build software for my workflow",
+        "my business needs a system",
+        "can you build something from scratch",
+        "off the shelf software does not fit"
+      ],
+      "keywords": [
+        "tailored",
+        "custom",
+        "bespoke",
+        "platform",
+        "workflow",
+        "system",
+        "software",
+        "process",
+        "dashboard",
+        "organisation"
+      ],
+      "answer": "E³ can explore a tailored platform when an organisation’s problem does not fit an off-the-shelf tool. The proposed system is shaped around the people who will use it, the workflow it should support and the outcome the organisation needs. E³ first understands the current process, then agrees on a useful core and the next stages. Features, integrations, scope and cost are discussed before the build is agreed.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "static-dynamic-websites",
+      "section": "general",
+      "title": "Static and dynamic website differences",
+      "triggers": [
+        "what is the difference between static and dynamic websites",
+        "what is a static website",
+        "what is a dynamic website",
+        "which website type do i need",
+        "do i need a static or dynamic website"
+      ],
+      "keywords": [
+        "static",
+        "dynamic",
+        "website",
+        "webpage",
+        "content",
+        "updates",
+        "database",
+        "ecommerce",
+        "online store"
+      ],
+      "answer": "A static website is generally suited to content that is mostly presented as prepared pages. A dynamic website supports more interactive or frequently changing content and can include features such as data-driven sections, user interactions or online-store functions, depending on the scope. E³ static websites start from ₦150,000 and dynamic websites start from ₦250,000. The final cost rises with the features and agreed requirements. Tell us what visitors need to do on the site and we can help identify the suitable type.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "school-grading",
+      "section": "schools",
+      "title": "School result calculations and grading rules",
+      "triggers": [
+        "does the school system calculate results",
+        "are results calculated automatically",
+        "how does grading work",
+        "can it calculate students scores",
+        "can we use our grading format"
+      ],
+      "keywords": [
+        "school",
+        "result",
+        "results",
+        "grading",
+        "grade",
+        "scores",
+        "calculation",
+        "calculate",
+        "academic"
+      ],
+      "answer": "The E³ Schools platform is designed to calculate results from scores entered by the school, using the school’s configured grading rules. The school remains responsible for entering accurate scores and confirming its academic policies. It does not generate assessment data that has not been entered.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "school-addons",
+      "section": "schools",
+      "title": "Optional school digital support",
+      "triggers": [
+        "what add ons are available for schools",
+        "can e3 manage our school social media",
+        "can you design school flyers",
+        "can you manage our school website",
+        "what other services can a school add"
+      ],
+      "keywords": [
+        "school",
+        "add on",
+        "optional",
+        "website management",
+        "social media",
+        "graphic design",
+        "flyer",
+        "audio",
+        "video",
+        "animation",
+        "digital support"
+      ],
+      "answer": "Optional school support can include website management; social media planning and publishing; graphic design for announcements, event flyers and admissions campaigns; audio and video content; animation and motion graphics; and custom digital support such as additional pages, tailored applications and workflow improvements. These services are scoped to the school’s needs and are only included when agreed.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "school-opportunities",
+      "section": "schools",
+      "title": "Learning, mentorship and scholarship opportunities for students",
+      "triggers": [
+        "does e3 offer scholarships to students",
+        "are school scholarships guaranteed",
+        "can students get mentorship",
+        "what is learn to earn",
+        "can students get internships through e3"
+      ],
+      "keywords": [
+        "school",
+        "student",
+        "students",
+        "scholarship",
+        "mentorship",
+        "learn to earn",
+        "internship",
+        "opportunity",
+        "eligibility"
+      ],
+      "answer": "The E³ Schools partnership can connect students to digital learning and potential opportunities beyond the classroom. The published page describes Learning Hub access, practical projects, possible mentorship for standout students, scholarship opportunities and a proposed Learn to Earn route for eligible students, subject to programme terms. These are opportunity pathways, not guarantees of scholarships, admission, internships or paid placements. Eligibility, partner availability and confirmed programme terms apply.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "medical-ai-nurse",
+      "section": "medical",
+      "title": "How the E³ Medical AI nurse works",
+      "triggers": [
+        "how does the ai nurse work",
+        "what is the ai nurse",
+        "can the ai nurse answer patient questions",
+        "does the ai nurse check medical history",
+        "how does the medical chatbot work"
+      ],
+      "keywords": [
+        "medical",
+        "health",
+        "ai nurse",
+        "nurse",
+        "patient history",
+        "medical history",
+        "health history",
+        "recommendation",
+        "guidance",
+        "handover"
+      ],
+      "answer": "The E³ Medical AI nurse is designed to review the patient’s recorded medical history before offering knowledge-backed guidance. It can provide practical next-step information for common needs and hand the conversation to the doctor through the doctor–patient chatroom when professional input is needed. It is an assistance layer, not a medical professional: it does not diagnose, prescribe or replace doctors, nurses or pharmacists. Urgent health concerns should go to qualified professionals.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "medical-records",
+      "section": "medical",
+      "title": "Patient medical history and records",
+      "triggers": [
+        "does the ai nurse remember patient history",
+        "how are patient records used",
+        "what happens to medical history",
+        "does it check a patients history",
+        "how is patient data handled"
+      ],
+      "keywords": [
+        "medical",
+        "patient",
+        "history",
+        "records",
+        "record",
+        "data",
+        "consent",
+        "access",
+        "privacy"
+      ],
+      "answer": "The E³ Medical concept describes the AI nurse reviewing the medical history recorded within the partner service so its guidance can take the patient’s context into account. The page states that data handling, consent and access are agreed with the partner service. The website assistant cannot confirm specific retention, security or compliance arrangements; those must be discussed and documented with E³ and the partner service.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "medical-orders",
+      "section": "medical",
+      "title": "Online medicine requests and pharmacy fulfilment",
+      "triggers": [
+        "how do online drug orders work",
+        "can patients order medicine online",
+        "where do medicine orders go",
+        "does the pharmacy fulfil orders",
+        "can i order a refill through the platform"
+      ],
+      "keywords": [
+        "medical",
+        "medicine",
+        "medicines",
+        "drug",
+        "drugs",
+        "order",
+        "orders",
+        "pharmacy",
+        "stock",
+        "fulfilment",
+        "refill"
+      ],
+      "answer": "The E³ Medical platform is designed so patients can place a medicine request online and send it to the partner pharmacy. The pharmacy confirms and fulfils the request according to its stock and workflow. The platform does not guarantee that a medicine is in stock or available for fulfilment.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "medical-chatroom",
+      "section": "medical",
+      "title": "Doctor–patient chatroom",
+      "triggers": [
+        "can patients chat with their doctor",
+        "how does the doctor patient chat work",
+        "can i message a doctor in the platform",
+        "does the app have a chatroom"
+      ],
+      "keywords": [
+        "medical",
+        "doctor",
+        "patient",
+        "chat",
+        "chatroom",
+        "message",
+        "follow up",
+        "conversation"
+      ],
+      "answer": "The E³ Medical concept includes a chatroom designed to keep doctor–patient questions, updates and follow-ups in one place rather than scattering them across calls and visits. Response times depend on the professional’s availability. The AI nurse is intended to support common guidance between professional interactions, but it does not replace professional care.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "nightlife-features",
+      "section": "nightlife",
+      "title": "Abuja Events search, ticketing and venue maps",
+      "triggers": [
+        "how does abuja events work",
+        "how can i find events in abuja",
+        "how does event ticketing work",
+        "can event pages show a venue map",
+        "what can event organisers do"
+      ],
+      "keywords": [
+        "nightlife",
+        "abuja events",
+        "event",
+        "events",
+        "search",
+        "venue",
+        "organiser",
+        "organizer",
+        "ticket",
+        "ticketing",
+        "map",
+        "date",
+        "area",
+        "filter"
+      ],
+      "answer": "Abuja Events is E³’s event discovery and booking platform for Abuja. Visitors can search by event title, venue, tags or organiser and filter by date or area. Each event can have its own details page, ticket plans and connected map showing the venue. Organisers can list events, set ticket plans and use a profile to present their brand. The organiser runs the event; Abuja Events provides the discovery and booking layer.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "nightlife-guarantee",
+      "section": "nightlife",
+      "title": "Abuja Events ticket guarantee",
+      "triggers": [
+        "are tickets guaranteed on abuja events",
+        "can an event oversell tickets",
+        "how does ticket protection work",
+        "is my booked ticket guaranteed"
+      ],
+      "keywords": [
+        "nightlife",
+        "abuja events",
+        "ticket",
+        "tickets",
+        "guarantee",
+        "guaranteed",
+        "oversell",
+        "sold out",
+        "booking"
+      ],
+      "answer": "The E³ Nightlife pages describe Abuja Events tickets as platform-guaranteed, with ticket numbers held so a booked place is not oversold. The exact trust and operating setup is agreed with each organiser. For a specific event, check the event’s own details and booking instructions.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "wedding-features",
+      "section": "weddings",
+      "title": "Wedding and event website features",
+      "triggers": [
+        "what can a wedding website include",
+        "can guests rsvp online",
+        "can you add venue directions to an event page",
+        "can we update guests about an event",
+        "what does a digital wedding invitation do"
+      ],
+      "keywords": [
+        "wedding",
+        "event",
+        "website",
+        "guest",
+        "rsvp",
+        "directions",
+        "venue",
+        "schedule",
+        "story",
+        "updates",
+        "invitation"
+      ],
+      "answer": "Depending on the agreed scope, an E³ wedding or event experience can include a mobile-first event page, the couple’s or host’s story, venue and schedule details, directions, RSVP, important guest information and updates as details change. The design and content are shaped around the occasion and the people attending.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "learning-projects",
+      "section": "learning",
+      "title": "Learning Hub guided projects and progress",
+      "triggers": [
+        "do the learning hub courses have practical projects",
+        "how do students practise what they learn",
+        "can students record their projects",
+        "is the learning hub phone friendly"
+      ],
+      "keywords": [
+        "learning hub",
+        "course",
+        "courses",
+        "project",
+        "projects",
+        "practice",
+        "progress",
+        "record",
+        "phone",
+        "mobile",
+        "evidence"
+      ],
+      "answer": "The E³ Learning Hub pairs course content with guided practical projects. Learners make something real and can record progress and evidence such as screenshots, links and notes in the hub. Most practice can start on a phone; specialist or advanced work may use a computer. The goal is to help learning show up as work the learner can demonstrate, not just course attendance.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "medical-safety",
+      "section": "medical",
+      "title": "Medical AI safety and professional boundaries",
+      "triggers": [
+        "does the ai nurse diagnose",
+        "can the ai nurse prescribe medicine",
+        "does the ai nurse replace doctors",
+        "is the ai nurse a doctor",
+        "can i rely on the ai nurse for an emergency",
+        "what are the limits of the ai nurse"
+      ],
+      "keywords": [
+        "medical",
+        "ai nurse",
+        "diagnose",
+        "diagnosis",
+        "prescribe",
+        "prescription",
+        "doctor",
+        "professional",
+        "urgent",
+        "emergency",
+        "replace"
+      ],
+      "answer": "No. The E³ Medical AI nurse is an assistance layer, not a medical professional. It does not diagnose, prescribe or replace doctors, nurses or pharmacists. It is designed to review the patient’s recorded history, provide practical guidance for common needs and hand cases needing professional input to the doctor–patient chatroom. Urgent health concerns should go directly to qualified medical professionals.",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    },
+    {
+      "id": "discovery-guidance",
+      "section": "general",
+      "title": "Help choosing the right E³ solution",
+      "triggers": [
+        "i do not know what i need",
+        "i am not sure what i need",
+        "i have an idea but do not know the solution",
+        "i do not know whether i need a website or app",
+        "can you help me decide what i need",
+        "where should i start",
+        "i am not sure where to start",
+        "i need help with an idea"
+      ],
+      "keywords": [
+        "not sure",
+        "idea",
+        "help",
+        "decide",
+        "choose",
+        "website",
+        "app",
+        "solution",
+        "start",
+        "problem"
+      ],
+      "answer": "That is completely fine. You do not need to know the technical solution before speaking with E³. Start with what your organisation does, who you want to serve and what is difficult today—or what you want to make easier or possible. E³ can help explore the right direction before deciding whether that means a website, an application, automation, a stronger digital identity or something more tailored. To begin: what does your organisation do, and what would you most like to improve?",
+      "actions": [
+        "questionnaire",
+        "whatsapp"
+      ]
+    }
+  ]
+}
