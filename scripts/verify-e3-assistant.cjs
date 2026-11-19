@@ -88,10 +88,10 @@ for (const htmlPath of walkHtml(root)) {
   const depth = rel.split('/').length - 1;
   const prefix = '../'.repeat(depth);
   const html = fs.readFileSync(htmlPath, 'utf8');
-  const version = 'e3-ai-assistant.css?v=1.2.0';
+  const version = 'e3-ai-assistant.css?v=1.2.1';
   assert.ok(html.includes(`href="${prefix}assets/${version}"`), `${rel}: assistant stylesheet not included with relative path`);
-  assert.ok(html.includes(`src="${prefix}assets/e3-knowledge.js?v=1.2.0"`), `${rel}: knowledge loader script not included`);
-  assert.ok(html.includes(`src="${prefix}assets/e3-ai-assistant.js?v=1.2.0"`), `${rel}: assistant script not included with relative path`);
+  assert.ok(html.includes(`src="${prefix}assets/e3-knowledge.js?v=1.2.1"`), `${rel}: knowledge loader script not included`);
+  assert.ok(html.includes(`src="${prefix}assets/e3-ai-assistant.js?v=1.2.1"`), `${rel}: assistant script not included with relative path`);
   const absolute = (html.match(/(?:href|src)="\/(?!\/)[^"]*"/g) || []).filter(attr => !attr.includes('eee3.com.ng'));
   assert.equal(absolute.length, 0, `${rel}: root-absolute internal references remain: ${absolute.join(' ')}`);
   pageChecked += 1;

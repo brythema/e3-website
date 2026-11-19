@@ -101,7 +101,7 @@ body.dark .story-visual{background:linear-gradient(140deg,#132641,#10223A 60%,#1
 }
 
 </style>
-<link rel="stylesheet" href="../../assets/e3-ai-assistant.css?v=1.2.0">
+<link rel="stylesheet" href="../../assets/e3-ai-assistant.css?v=1.2.1">
 </head>
 <body data-ai-page="learning">
 <div class="topbar">
@@ -233,6 +233,6 @@ function searchableText(blocks){return blocks.map(b=>[b.text,b.title,flattenBloc
 $('searchInput').addEventListener('input',()=>{const q=$('searchInput').value.trim().toLocaleLowerCase();if(!q){$('searchResults').innerHTML='';return}const records=[{index:-1,title:'Start here',blocks:GUIDE.start},...GUIDE.chapters.map((c,i)=>({index:i,title:c.title,blocks:c.blocks}))];const found=[];records.forEach(r=>{const text=searchableText(r.blocks);const low=text.toLocaleLowerCase();const pos=low.indexOf(q);if(pos>=0){const start=Math.max(0,pos-85),end=Math.min(text.length,pos+q.length+125);found.push({...r,snippet:(start?'…':'')+text.slice(start,end)+(end<text.length?'…':'')})}});$('searchResults').innerHTML=found.length?found.slice(0,14).map(r=>`<button class="search-result" data-search-index="${r.index}"><strong>${esc(r.title)}</strong><span>${esc(r.snippet)}</span></button>`).join(''):`<div class="search-empty">No matching text was found in this guide.</div>`;document.querySelectorAll('[data-search-index]').forEach(btn=>btn.addEventListener('click',()=>{selectChapter(Number(btn.dataset.searchIndex));$('searchPanel').classList.remove('open');$('searchInput').value='';$('searchResults').innerHTML=''}))});
 renderCurrent();
 </script>
-<script src="../../assets/e3-knowledge.js?v=1.2.0" defer></script><script src="../../assets/e3-ai-assistant.js?v=1.2.0" defer></script>
+<script src="../../assets/e3-knowledge.js?v=1.2.1" defer></script><script src="../../assets/e3-ai-assistant.js?v=1.2.1" defer></script>
 </body>
 </html>

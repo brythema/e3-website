@@ -309,10 +309,6 @@
 
     function openPanel() {
       widget.classList.add('is-open');
-      // Body-level flag so page elements (for example the mobile WhatsApp bar)
-      // can react; a widget-relative sibling selector can never reach them
-      // because the widget is appended last inside <body>.
-      document.body.classList.add('e3-ai-chat-open');
       launcher.setAttribute('aria-expanded','true');
       panel.setAttribute('aria-hidden','false');
       input.focus({preventScroll:true});
@@ -324,7 +320,6 @@
     }
     function closePanel() {
       widget.classList.remove('is-open');
-      document.body.classList.remove('e3-ai-chat-open');
       launcher.setAttribute('aria-expanded','false');
       panel.setAttribute('aria-hidden','true');
       launcher.focus({preventScroll:true});

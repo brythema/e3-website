@@ -1,7 +1,24 @@
 # E³ website assistant — update notes
 
-Release: 1.2.0  
-Date: 18 November 2026
+Release: 1.2.1  
+Date: 19 November 2026
+
+## What changed in 1.2.1 — mobile "Start a conversation" bar removed
+
+The E³ guide assistant now carries the whole on-page conversation, so the mobile floating "Start a conversation" WhatsApp bar is redundant. It was removed on operator instruction; WhatsApp contact still remains in the footer on every page.
+
+- Removed the `<div class="mobile-whatsapp">` bar from all 16 pages that carried it (2 of the 18 pages never had it).
+- Stripped all `.mobile-whatsapp` rules from `assets/style.css` (base `display:none` + the ≤720px fixed-bar block) and `assets/motion.css` (z-index + press feedback).
+- Removed the now-dead `body.e3-ai-chat-open` class handling from `assets/e3-ai-assistant.js` and its CSS rule (its only consumer was hiding that bar while the chat was open).
+- Mobile (≤720px) assistant launcher reflowed from `bottom:calc(76px + …)` (floating above the bar) to `bottom:calc(22px + env(safe-area-inset-bottom))`, matching the desktop corner position now that the bar is gone.
+- Cache-bust bumped `?v=1.2.0` → `?v=1.2.1` on the versioned assistant assets (all 18 pages, verify and live-verify scripts, README). `scripts/verify-e3-live.cjs` re-hashes live assets against the repo files after each deploy.
+
+## Validation performed (1.2.1)
+
+- `node --check assets/e3-ai-assistant.js`
+- `node scripts/verify-e3-assistant.cjs` (18 pages, pricing, routing, knowledge sync, relative versioned paths)
+- `grep -r mobile-whatsapp` — zero references left in HTML, CSS or JS
+- `node scripts/verify-e3-live.cjs` after deployment (12 routes 200, 3 assistant assets byte-identical live vs repo)
 
 ## What changed in 1.2.0 — always-visible launcher fix
 

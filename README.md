@@ -82,7 +82,7 @@ The public website includes a lightweight, local knowledge-based assistant. It d
 - `scripts/verify-e3-assistant.cjs` — automated checks for pricing, service routing, medical boundaries, discovery, follow-up context, knowledge-loader sync and relative asset paths on every page.
 
 **Visibility and loading**
-The assistant loads on all 18 pages with depth-relative paths and cache-busted asset URLs (`?v=1.2.0`), so it is always visible at the bottom right — on the live site, on sub-path deployments and when the pages are opened directly from disk (`file://`, e.g. double-clicking `index.html` on a desktop). The knowledge library is loaded as a plain `<script>` tag (works everywhere), with an HTTP fetch of the JSON as a fallback; if neither can load, a WhatsApp contact pill still appears in the same corner.
+The assistant loads on all 18 pages with depth-relative paths and cache-busted asset URLs (`?v=1.2.1`), so it is always visible at the bottom right — on the live site, on sub-path deployments and when the pages are opened directly from disk (`file://`, e.g. double-clicking `index.html` on a desktop). The knowledge library is loaded as a plain `<script>` tag (works everywhere), with an HTTP fetch of the JSON as a fallback; if neither can load, a WhatsApp contact pill still appears in the same corner.
 
 **Approved assistant pricing**
 - Static websites start from ₦150,000.

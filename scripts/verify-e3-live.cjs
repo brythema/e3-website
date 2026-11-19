@@ -15,12 +15,12 @@ const assetHash = (s) => crypto.createHash("sha256").update(s).digest("hex");
     if (res.status !== 200) { console.log("FAIL route", r, res.status); failed = 1; }
   }
   for (const f of ["assets/e3-ai-assistant.js", "assets/e3-knowledge.js", "assets/e3-ai-assistant.css"]) {
-    const live = await (await fetch(`${BASE}/${f}?v=1.2.0`)).text();
+    const live = await (await fetch(`${BASE}/${f}?v=1.2.1`)).text();
     const local = fs.readFileSync(f, "utf8");
     if (assetHash(live) !== assetHash(local)) { console.log("FAIL asset mismatch", f); failed = 1; }
   }
   const home = await (await fetch(BASE + "/")).text();
-  if (!home.includes("e3-knowledge.js?v=1.2.0")) { console.log("FAIL home missing versioned knowledge loader"); failed = 1; }
+  if (!home.includes("e3-knowledge.js?v=1.2.1")) { console.log("FAIL home missing versioned knowledge loader"); failed = 1; }
   if (home.includes("Encouraging Excellence Early")) { console.log("FAIL stale org name on live home"); failed = 1; }
   if (failed) { console.log("E3 LIVE VERIFY: FAIL"); process.exit(1); }
   console.log("E3 LIVE VERIFY: PASS — 12 routes 200, 3 v1.2.0 assets byte-identical, versioned loader wired, stale name absent");
